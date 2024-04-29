@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Demo</title>
+  </head>
+  <body>
+    <main>
+      <div>
+        <h1>Регистрация</h1>
+        <span>Уже есть аккаунт?</span>
+        <a href="#">Войти</a>
+      </div>
+
+      <form action="#">
+        <textarea name="mycompany" id="mycompany" cols="20" rows="1">Moя компания</textarea required>
+
+        <div>
+          <input type="firstname" id="firstname" name="firstname" placeholder="Имя" required>
+          <input type="lastname" id="lastname" name="lastname" placeholder="Фамилия">
+        </div>
+        
+        <div>
+            <input type="email" id="email" name="email" placeholder="E-mail" required>
+        </div>
+        
+        <button>Зарегистрироваться</button>
+
+        <div>
+            <input type="checkbox" name="checkbox" id="checkbox"> 
+            <label for="checkbox">Я прочитал и принимаю</label>
+            <a href="#">Условия использования</a>
+        </div>
+      </form>
+    </main>
+  </body>
+</html>
+
+<!-- http://127.0.0.1:5500/2-form/index.html?mycompany=BS%5C2+Company&firstname=Pavel&lastname=Bezdenezhnykh&email=pb250170%40gmail.com&checkbox=on# -->
