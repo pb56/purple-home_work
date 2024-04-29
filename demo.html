@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Demo</title>
+  </head>
+  <body>
+    <main>
+      <div>
+        <h1>Регистрация</h1>
+        <span>Уже есть аккаунт?</span>
+        <a href="#">Войти</a>
+      </div>
+
+      <form action="#">
+        <div>
+          <label for="emil">Email*</label>
+          <input type="email" id="email" name="email" placeholder="Введите E-mail" required>
+        </div>
+        <div>
+          <label for="telegram">Telegram</label>
+          <input type="text" id="telegram" name="telegram" placeholder="Введите Telegram">
+        </div>
+        <div>
+          <label for="topic">Тема*</label>
+          <select name="topic" id="topic" required>
+            <option value="courses">Приобретение курсов</option>
+            <option value="feedback">Обратная связь</option>
+          </select>
+        </div>
+        <div>
+          <label for="comment">Комментарий</label>
+          <textarea name="comment" id="comment" cols="30" rows="10"></textarea>
+        </div>
+        <button>Отправить</button>
+      </form>
+    </main>
+  </body>
+</html>
+<!-- http://127.0.0.1:5500/demo.html?email=pb250170%40gmail.com&telegram=%40pb_atm&topic=courses&comment=qwerty# -->
