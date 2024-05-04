@@ -1,0 +1,46 @@
+#heroButton {
+  background-color: #4262ff;
+  color: #fff;
+}
+
+.link {
+  color: #4262ff;
+  text-decoration: underline;
+}
+
+h1,
+h2 {
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 56px;
+}
+
+.heroText {
+  color: #050038;
+}
+
+.sectionText {
+  color: #696688;
+}
+
+header a {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #050038;
+  text-decoration: none;
+}
+
+/* p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #050038;
+} */
+
+.heroForm + p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #050038;
+}
