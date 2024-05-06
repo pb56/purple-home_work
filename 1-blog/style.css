@@ -1,0 +1,57 @@
+.main {
+  background: linear-gradient(180deg, #374151 0%, #111827 100%);
+}
+
+.header {
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: 400;
+}
+
+header a {
+  color: #fff;
+  text-decoration: none;
+}
+
+header input::placeholder {
+  color: #fff;
+}
+
+#search {
+  background-color: #1f293799;
+}
+
+.articleDate,
+.personStatus {
+  font-family: "Roboto";
+  font-size: 14px;
+  color: #fff;
+  opacity: 60%;
+}
+
+.articleHeader {
+  font-family: "Roboto";
+  font-size: 24px;
+  color: #fff;
+}
+
+.personName,
+.firstText,
+.secondText,
+.copyright {
+  font-family: "Roboto";
+  font-size: 16px;
+  color: #fff;
+}
+
+.firstText {
+  font-size: 20px;
+}
+
+.secondText {
+  font-size: 16px;
+}
+
+.copyright {
+  opacity: 60%;
+}
