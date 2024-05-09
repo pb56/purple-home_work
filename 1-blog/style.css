@@ -55,3 +55,8 @@ header input::placeholder {
 .copyright {
   opacity: 60%;
 }
+
+.sectionList {
+  list-style: none;
+  
+}
