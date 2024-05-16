@@ -5,13 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Урок по изучению HTML5 и CSS" />
     <title>Demo</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
     <meta name="author" content="Павел Безденежных" />
   </head>
   <body>
     <main>
       <form action="#">
-        <div>
+        <div class="regText">
           <h1>Регистрация</h1>
           <span>Уже есть аккаунт?</span>
           <a href="#">Войти</a>
@@ -22,6 +25,7 @@
           type="text"
           id="mycompany"
           name="mycompany"
+          placeholder="Название компании"
           value="Моя компания"
         />
 
@@ -50,10 +54,12 @@
             required
           />
         </div>
+        <div class="btn">
+          <button>Зарегистрироваться</button>
+          <img src="./images/arrow.svg" alt="Стрелка вправо">
+        </div>
 
-        <button>Зарегистрироваться</button>
-
-        <div>
+        <div class="checkbox">
           <input type="checkbox" name="checkbox" id="checkbox" />
           <label for="checkbox">Я прочитал и принимаю</label>
           <a href="#">Условия использования</a>

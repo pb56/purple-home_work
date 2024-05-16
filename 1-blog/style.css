@@ -1,3 +1,14 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", monospace;
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
+}
+
 header a {
   color: #fff;
   text-decoration: none;
@@ -31,8 +42,6 @@ article {
 .main {
   background: linear-gradient(180deg, #374151 0%, #111827 100%);
   margin: 0 auto;
-  font-family: "Roboto";
-  font-weight: 400;
 }
 
 .divInput {
@@ -51,10 +60,6 @@ article {
   font-size: 18px;
   margin: 70px auto;
   display: flex;
-}
-
-.header a {
-  margin: 0 0 0 180px;
 }
 
 .articleDate {
@@ -79,22 +84,12 @@ article {
 }
 
 .mainImage {
-  text-align: center;
-  margin: 0 0 69px 0;
+  margin-bottom: 69px;
 }
 
 .sectionText {
-  padding: 0px 203px 0 170px;
-  margin: 0 0 103px 0;
-}
-
-.personName,
-.firstText,
-.secondText,
-.thirdText,
-.copyright {
-  font-size: 16px;
-  color: #fff;
+  max-width: 708px;
+  margin: 0 auto 103px;
 }
 
 .firstText {
