@@ -1,0 +1,116 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", monospace;
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
+}
+
+header a {
+  color: #fff;
+  text-decoration: none;
+}
+
+header input::placeholder {
+  color: #fff;
+}
+
+article {
+  text-align: center;
+  padding: 0 25%;
+}
+
+#search {
+  background-color: #1f293799;
+  color: #fff;
+  border: none;
+  width: 224px;
+  height: 40px;
+  border-radius: 30px 30px 30px 30px;
+  font-size: 16px;
+  padding: 0 40px;
+}
+
+.main,
+.header {
+  width: 1080px;
+}
+
+.main {
+  background: linear-gradient(180deg, #374151 0%, #111827 100%);
+  margin: 0 auto;
+}
+
+.divInput {
+  position: relative;
+}
+
+.divInput img {
+  width: 14px;
+  height: 14px;
+  position: absolute;
+  top: 14px;
+  left: 14px;
+}
+
+.header {
+  font-size: 18px;
+  margin: 70px auto;
+  display: flex;
+}
+
+.articleDate {
+  margin: 0 0 14px 0;
+}
+
+.articleDate,
+.personStatus {
+  font-size: 14px;
+  color: #fff;
+  opacity: 60%;
+}
+
+.articleHeader {
+  font-size: 24px;
+  font-weight: 400;
+  color: #fff;
+  margin: 0 0 30px 0;
+}
+.blockPerson {
+  margin: 0 0 28px 0;
+}
+
+.mainImage {
+  margin-bottom: 69px;
+}
+
+.sectionText {
+  max-width: 708px;
+  margin: 0 auto 103px;
+}
+
+.firstText {
+  font-size: 20px;
+  line-height: 32px;
+}
+
+.secondText,
+.thirdText {
+  line-height: 30px;
+}
+
+.footer {
+  text-align: center;
+  padding: 0 0 77px 0;
+}
+
+.copyright {
+  opacity: 60%;
+}
+
+.sectionList {
+  list-style: none;
+}
