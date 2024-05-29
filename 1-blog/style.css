@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  margin: 0;
 }
 
 body {
@@ -12,10 +13,37 @@ body {
 header a {
   color: #fff;
   text-decoration: none;
+  line-height: 35px;
+}
+
+header nav {
+}
+
+div a > span {
+  display: inline-block;
+  width: 35px;
+  margin-right: 11px;
+  text-align: center;
+  border-radius: 3px;
+  background: #4B5563;
+  box-shadow: 0px 15px 30px 0px #00000026;
+}
+
+div > p {
+  line-height: 28px;
 }
 
 header input::placeholder {
   color: #fff;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  gap: 52px;
+  padding: 0;
+  margin-left: 77px;
+  margin-right: 300px;
 }
 
 article {
@@ -46,6 +74,7 @@ article {
 
 .divInput {
   position: relative;
+  
 }
 
 .divInput img {
@@ -60,6 +89,7 @@ article {
   font-size: 18px;
   margin: 70px auto;
   display: flex;
+  align-items: center;
 }
 
 .articleDate {
@@ -78,13 +108,23 @@ article {
   font-weight: 400;
   color: #fff;
   margin: 0 0 30px 0;
+  line-height: 38px;
 }
 .blockPerson {
   margin: 0 0 28px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.blockPerson div {
+  margin-left: 16px;
+  text-align: left;
 }
 
 .mainImage {
   margin-bottom: 69px;
+  text-align: center;
 }
 
 .sectionText {

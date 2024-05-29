@@ -4,6 +4,10 @@
 }
 
 body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background: linear-gradient(
       243.18deg,
       #fdc5c5 25.45%,
@@ -18,7 +22,6 @@ body {
 
 main {
   max-width: 582px;
-  margin: 225px auto;
   padding: 72px 95px 91px 93px;
   background-color: #fffefe;
   border-radius: 10px;
