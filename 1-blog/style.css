@@ -17,6 +17,7 @@ header a {
 }
 
 header nav {
+  flex: 1;
 }
 
 div a > span {
@@ -37,13 +38,17 @@ header input::placeholder {
   color: #fff;
 }
 
-ul {
+ul { 
   display: flex;
-  list-style-type: none;
-  gap: 52px;
+  align-items: center;
+  list-style: none;
   padding: 0;
-  margin-left: 77px;
-  margin-right: 300px;
+  margin: 0;
+  gap: 39px;
+}
+
+nav ul li:first-child{
+    margin-right: 13px;
 }
 
 article {
@@ -86,10 +91,13 @@ article {
 }
 
 .header {
-  font-size: 18px;
-  margin: 70px auto;
+  max-width: 1080px;
   display: flex;
+  justify-content: space-between;
   align-items: center;
+  gap: 77px;
+  margin: 0 auto;
+  padding: 71px 0 69px;
 }
 
 .articleDate {
@@ -115,11 +123,14 @@ article {
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 17px;
 }
 
 .blockPerson div {
-  margin-left: 16px;
-  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items:flex-start;
 }
 
 .mainImage {
@@ -132,11 +143,12 @@ article {
   margin: 0 auto 103px;
 }
 
-.firstText {
+.sectionText p:first-child {
   font-size: 20px;
   line-height: 32px;
 }
 
+.sectionText,
 .secondText,
 .thirdText {
   line-height: 30px;
