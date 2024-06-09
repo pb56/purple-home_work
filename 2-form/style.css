@@ -4,7 +4,17 @@
 }
 
 body {
-  background-color: #f39494;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(
+      243.18deg,
+      #fdc5c5 25.45%,
+      rgba(242, 152, 222, 0) 100%
+    ),
+    linear-gradient(0deg, #f39494, #f39494),
+    linear-gradient(243.43deg, #ffa5a5 32.96%, rgba(255, 255, 255, 0) 82.03%);
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
   font-size: 14px;
@@ -12,13 +22,16 @@ body {
 
 main {
   max-width: 582px;
-  margin: 225px auto;
   padding: 72px 95px 91px 93px;
   background-color: #fffefe;
   border-radius: 10px;
+  box-shadow: 0px 4px 4px 0px #00000040;
 }
 
 form {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
   text-align: center;
 }
 
@@ -54,7 +67,6 @@ input {
   background-color: #f5f5f5;
   border: none;
   border-radius: 5px;
-  margin-bottom: 22px;
   caret-color: #089fe0;
 }
 
@@ -86,18 +98,59 @@ button {
   border: none;
 }
 
+input[type="checkbox"] {
+  opacity: 0;
+}
+
+input[type="checkbox"]:checked + label[for="checkbox"]::before {
+  background-color: #089fe0;
+  content: "✓";
+  padding: 0 3px;
+  color: white;
+}
+
+label[for="checkbox"]::before {
+  content: " ";
+  position: absolute;
+  top: 1px;
+  left: 0;
+  display: inline-block;
+  /* margin: 2px; */
+  padding: 7px;
+  border-radius: 5px;
+  border: 1px solid #eeeeee;
+  background-color: #f5f5f5;
+  font-size: 11px;
+}
+
 #checkbox {
   height: auto;
   width: inherit;
   margin: 0;
 }
+
+#firstname {
+  border-radius: 5px 0 0 5px;
+}
+
+#lastname {
+  margin-left: 1px;
+  border-radius: 0 5px 5px 0;
+}
+
+.personName {
+  display: flex;
+}
+
 .checkbox {
+  display: flex;
+  position: relative;
   text-align: left;
+  gap: 8px;
 }
 
 .btn {
   position: relative;
-  margin-bottom: 22px;
 }
 
 .btn img {
@@ -108,7 +161,6 @@ button {
 
 .regText {
   text-align: center;
-  margin-bottom: 47px;
 }
 
 .regText a {

@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  margin: 0;
 }
 
 body {
@@ -12,10 +13,42 @@ body {
 header a {
   color: #fff;
   text-decoration: none;
+  line-height: 35px;
+}
+
+header nav {
+  flex: 1;
+}
+
+div a > span {
+  display: inline-block;
+  width: 35px;
+  margin-right: 11px;
+  text-align: center;
+  border-radius: 3px;
+  background: #4B5563;
+  box-shadow: 0px 15px 30px 0px #00000026;
+}
+
+div > p {
+  line-height: 28px;
 }
 
 header input::placeholder {
   color: #fff;
+}
+
+ul { 
+  display: flex;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 39px;
+}
+
+nav ul li:first-child{
+    margin-right: 13px;
 }
 
 article {
@@ -46,6 +79,7 @@ article {
 
 .divInput {
   position: relative;
+  
 }
 
 .divInput img {
@@ -57,9 +91,13 @@ article {
 }
 
 .header {
-  font-size: 18px;
-  margin: 70px auto;
+  max-width: 1080px;
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 77px;
+  margin: 0 auto;
+  padding: 71px 0 69px;
 }
 
 .articleDate {
@@ -78,13 +116,26 @@ article {
   font-weight: 400;
   color: #fff;
   margin: 0 0 30px 0;
+  line-height: 38px;
 }
 .blockPerson {
   margin: 0 0 28px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 17px;
+}
+
+.blockPerson div {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items:flex-start;
 }
 
 .mainImage {
   margin-bottom: 69px;
+  text-align: center;
 }
 
 .sectionText {
@@ -92,11 +143,12 @@ article {
   margin: 0 auto 103px;
 }
 
-.firstText {
+.sectionText p:first-child {
   font-size: 20px;
   line-height: 32px;
 }
 
+.sectionText,
 .secondText,
 .thirdText {
   line-height: 30px;
