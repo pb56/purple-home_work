@@ -1,0 +1,96 @@
+/* Header Logo */
+
+.header__logo {
+  font-size: 36px;
+  font-weight: 900;
+  color: var(--color-link-hover);
+}
+
+/* Section */
+
+.section-blue {
+  background-color: var(--color-bg-primary);
+}
+
+.section-header {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 57.6px;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+/* Button */
+
+.header__button {
+  background-color: var(--color-link-hover);
+  color: var(--color-bg-primary);
+  padding: 12px 32px;
+  border-radius: 34px;
+  border-style: none;
+  font-weight: 800;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.button-blue {
+  background: var(--color-bg-primary);
+  color: var(--color-link-hover);
+}
+
+/* H3 */
+
+.hero__left-h2 {
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 48px;
+  color: var(--color-link-hover);
+}
+
+.feature__text-h2 {
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 48px;
+}
+
+.feature__text-span {
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 25.2px;
+  color: #4e5d7c80;
+}
+
+/* Feature Diagram */
+
+.feature__diagram {
+  max-width: var(--layout-width);
+}
+
+.feature__item-diagram {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 63px 0 80px 0;
+}
+
+.feature__text-diagram {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+/* Section Savingtime */
+
+.savingtime__text-h2 {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 57.6px;
+  color: #fff;
+  padding-bottom: 24px;
+}
+
+.savingtime__text {
+  color: #fff;
+  padding-bottom: 40px;
+  text-align: center;
+}
