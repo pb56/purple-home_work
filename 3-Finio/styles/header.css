@@ -20,6 +20,8 @@
   cursor: pointer;
 }
 
+
+
 /* Menu */
 
 .menu {
@@ -53,16 +55,19 @@
   display: flex;
 }
 
-.hero__right img {
+.hero__right {
   width: 110%;
 }
 
 /* .hero__left {
   display: flex;
   flex-direction: column;
-  width: 515px;
 } */
 
 /* .hero-polugon {
   clip-path: polygon(0% 0%, 100% 0%, 100% 60.5%, 0% 88%);
 } */
+
+@media (max-width:375px) {
+  
+}

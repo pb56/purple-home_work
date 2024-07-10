@@ -18,9 +18,9 @@
 }
 
 .feature-text {
-  font-size: var(--gap-24);
+  font-size: 18px;
   font-weight: 700;
-  line-height: 28.8px;
+  line-height: 25.2px;
   text-align: left;
 }
 
@@ -224,9 +224,7 @@ ul img {
   .item-coast {
     color: var(--color-link-hover);
   }
-  .item-text {
-    margin-bottom: 25px;
-  }
+
 }
 
 .section__rates-wrapper {
@@ -266,10 +264,12 @@ ul img {
 }
 
 .item-coast {
+  display: flex;
+  justify-content: space-between;
   font-size: 17px;
   font-weight: 500;
   line-height: 20.4px;
-  text-align: left;
+  align-items: center;
   color: #4e5d7c;
   padding: 16px 0 16px 0;
 }
@@ -300,7 +300,7 @@ ul img {
   font-size: 17px;
   font-weight: 700;
   line-height: 20.4px;
-  padding: 8px 16px 8px 16px;
+  padding: 8px 8px 8px 16px;
   border-radius: 8px;
 }
 
@@ -357,14 +357,14 @@ ul img {
 }
 
 .content-right {
-  width: 50%;
+  width: 125%;
   border-radius: 0 16px 16px 0;
 }
 
 .slider__button-left {
   position: absolute;
   content: '';
-  background: url(/3-Finio/images/arrow-left.svg) no-repeat center;
+  background: url(/images/arrow-left.svg) no-repeat center;
   background-color: var(--color-link);
   width: 40px;
   height: 40px;
@@ -381,7 +381,7 @@ ul img {
 .slider__button-right {
   position: absolute;
   content: '';
-  background: url(/3-Finio/images/arrow-right.svg) no-repeat center;
+  background: url(/images/arrow-right.svg) no-repeat center;
   background-color: var(--color-link);
   width: 40px;
   height: 40px;

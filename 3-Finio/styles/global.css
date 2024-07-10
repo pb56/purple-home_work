@@ -53,6 +53,10 @@ a {
   text-decoration: none;
 }
 
+.pd-10 {
+  padding: 10px 0 6px 0 !important;
+}
+
 /* margin-left */
 
 .ml-50 {
@@ -66,11 +70,11 @@ a {
 }
 
 .mb-25 {
-  margin-bottom: 25px;
+  margin-bottom: 25px !important;
 }
 
 .mb-40 {
-  margin-bottom: 40px !important;
+  margin-bottom: 40px;
 }
 
 .mb-48 {

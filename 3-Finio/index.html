@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="./styles/page.css" />
     <link rel="stylesheet" href="./styles/components.css" />
     <link rel="stylesheet" href="./styles/footer.css" />
+    <link rel="stylesheet" href="./styles/media.css">
     <title>FINIO</title>
   </head>
   <body>
@@ -55,7 +56,7 @@
       <div class="hero">
         <div class="hero__left">
           <h2 class="hero__left-h2 mb-40">
-            Простой финансовый<br> учёт для продавцов на<br> маркетплейсах
+            Простой финансовый учёт для продавцов на маркетплейсах
           </h2>
           <button class="header__button mb-80">
             Попробовать 14 дней бесплатно
@@ -65,14 +66,14 @@
             alt="Логотипы компаний партнеров"
           />
         </div>
-        <div class="hero__right">
-          <img
+          <img class="hero__right"
             src="./images/hero-picture.png"
             alt="Изображение работы сервиса Finio"
           />
-        </div>
       </div>
     </section>
+
+    <!-- Features Section -->
       
     <section class="section__features">
       <div class="section__features-wrapper">
@@ -95,25 +96,25 @@
       <div class="feature__item-diagram border-top-line">
         <div class="feature__text-diagram">
           <h2 class="feature__text-h2">Предотвращайте<br> кассовые разрывы</h2>
-          <span class="feature__text-span">Заранее планируйте предстоящие платежи и<br> поступления средств. Тем самым, вы избежите<br> неприятной ситуации с нехваткой средств на счетах</span>
+          <span class="feature__text-span">Заранее планируйте предстоящие платежи и поступления средств. Тем самым, вы избежите неприятной ситуации с нехваткой средств на счетах</span>
         </div>
-          <img class="feature-img" src="./images/feature/balans.png" alt="Картинка баланса">
+          <img src="./images/feature/balans.png" alt="Картинка баланса">
       </div>
 
       <div class="feature__item-diagram fd-row-reverse border-top-line">
         <div class="feature__text-diagram">
-          <h2 class="feature__text-h2">Отчёты о прибыли и<br> убытках всегда под рукой</h2>
+          <h2 class="feature__text-h2">Отчёты о прибыли и убытках всегда под рукой</h2>
           <span class="feature__text-span">Получите полную информацию о состоянии вашего бизнеса,<br> включающую все необходимые показатели для принятия<br> правильных решений</span>
         </div>
-          <img class="feature-img" src="./images/feature/diagramms.png" alt="Картинка баланса">
+          <img src="./images/feature/diagramms.png" alt="Картинка баланса">
       </div>
 
       <div class="feature__item-diagram border-top-line">
         <div class="feature__text-diagram">
-          <h2 class="feature__text-h2">Какие товары приносят<br> прибыль</h2>
+          <h2 class="feature__text-h2">Какие товары приносят прибыль</h2>
           <span class="feature__text-span">Находите точки роста, делайте упор на рентабельные<br> товары и увеличивайте свой доход</span>
         </div>
-          <img class="feature-img" src="./images/feature/diagramms-2.png" alt="Картинка баланса">
+          <img src="./images/feature/diagramms-2.png" alt="Картинка баланса">
       </div>
 
       <div class="feature__item-diagram fd-row-reverse pos-rel border-top-line">
@@ -121,17 +122,19 @@
           <h2 class="feature__text-h2">Сокращайте лишние<br> расходы</h2>
           <span class="feature__text-span">Анализируйте расходы, убирать ненужные издержки и<br> находите возможности повышать прибыльность бизнеса</span>
         </div>
-          <img class="feature-img" src="./images/feature/expenses.png" alt="Картинка баланса">
+          <img src="./images/feature/expenses.png" alt="Картинка баланса">
           <img class="feature-img-sum" src="./images/feature/expenses-sum.png" alt="Картинка сумм">
       </div>
       
     </section>
 
+    <!-- Savingtime Section -->
+
     <section class="section-blue section__savingtime">
       <div class="section__savingtime-wrapper">
         <div class="section__savingtime-header">
           <h2 class="savingtime__text-h2">Экономьте время и нервы на учете</h2>
-          <span class="feature__text-span savingtime__text">Автоматическая синхронизация данных с маркетплейсов позволит вам мгновенно получать все важный показатели бизнеса на<br> одном экране. А с помощью мобильной версии вы сможете вносить расходы всего пару кликов</span>
+          <span class="feature__text-span savingtime__text">Автоматическая синхронизация данных с маркетплейсов позволит вам мгновенно получать все важный показатели бизнеса на одном экране. А с помощью мобильной версии вы сможете вносить расходы всего пару кликов</span>
           <button class="header__button mb-64">Попробовать 14 дней бесплатно</button>
           <div class="slider-box">
             <img class="slider-left" src="./images/savetimes/statistic-2.png" alt="Левая картинка слайдера">
@@ -142,52 +145,58 @@
             <div class="feature-block-item">
               <h3 class="item-header">Excel</h3>
               <ul>
-                <li><img src="/3-Finio/images/savetimes/exclamation-circle.svg">Долгое внесение данных</li>
-                <li><img src="/3-Finio/images/savetimes/exclamation-circle.svg">Ручной ввод данных с маркетплейсов</li>
-                <li><img src="/3-Finio/images/savetimes/exclamation-circle.svg">Не удобная работа с телефона</li>
-                <li><img src="/3-Finio/images/savetimes/exclamation-circle.svg">Сложность восприятия итоговых данных</li>
+                <li><img src="./images/savetimes/exclamation-circle.svg">Долгое внесение данных</li>
+                <li><img src="./images/savetimes/exclamation-circle.svg">Ручной ввод данных с маркетплейсов</li>
+                <li><img src="./images/savetimes/exclamation-circle.svg">Не удобная работа с телефона</li>
+                <li><img src="./images/savetimes/exclamation-circle.svg">Сложность восприятия итоговых данных</li>
               </ul>
             </div>
             <div class="feature-block-item">
               <h3 class="item-header">FINIO</h3>
               <ul>
-                <li><img src="/3-Finio/images/savetimes/check-circle.svg">Внесение данных за пару кликов</li>
-                <li><img src="/3-Finio/images/savetimes/check-circle.svg">Автоматическое получение данных по API</li>
-                <li><img src="/3-Finio/images/savetimes/check-circle.svg">Удобная мобильная версия</li>
-                <li><img src="/3-Finio/images/savetimes/check-circle.svg">Наглядные отчеты, графики и таблицы</li>
+                <li><img src="./images/savetimes/check-circle.svg">Внесение данных за пару кликов</li>
+                <li><img src="./images/savetimes/check-circle.svg">Автоматическое получение данных по API</li>
+                <li><img src="./images/savetimes/check-circle.svg">Удобная мобильная версия</li>
+                <li><img src="./images/savetimes/check-circle.svg">Наглядные отчеты, графики и таблицы</li>
               </ul>
             </div>
           </div>
         </div>
     </section>
 
+    <!-- Security Section -->
+
     <section class="section__security">
       <div class="section__security-wrapper">
         <div class="section__security-item">
-          <img class="security__img" src="/3-Finio/images/security/server-icon.svg" alt="Иконка сервера">
+          <img class="security__img" src="./images/security/server-icon.svg" alt="Иконка сервера">
           <div class="security-item-header">Надёжные сервера на территории России</div>
           <span class="security-item-span feature__text-span">Никакие события не скажутся на бесперебойной работе сервиса</span>
         </div>
         <div class="section__security-item">
-          <img class="security__img" src="/3-Finio/images/security/ssl-icon.svg" alt="Иконка SSL">
+          <img class="security__img" src="./images/security/ssl-icon.svg" alt="Иконка SSL">
           <div class="security-item-header">Используем 256-битное SSL-шифрование</div>
           <span class="security-item-span feature__text-span">Ваши данные не могут быть перехвачены, даже при использовании открытых Wi-Fi сетей</span>
         </div>
         <div class="section__security-item">
-          <img class="security__img" src="/3-Finio/images/security/lock-icon.svg" alt="Иконка замка">
+          <img class="security__img" src="./images/security/lock-icon.svg" alt="Иконка замка">
           <div class="security-item-header">Не передаём ваши данные 3-им лицам</div>
           <span class="security-item-span feature__text-span">Все данные о доходах и расходах компании видны только вам и тем, кому вы открыли доступ</span>
         </div>
       </div>
     </section>
 
+    <!-- Mobile Section -->
+
     <section class="section__mobile border-top-line">
       <div class="section__mobile-wrapper">
         <div class="section-header">Мобильная версия</div>
         <div class="feature__text-span ml-50 mb-40">Пользоваться всем функционалом сервиса удобно в любом месте и с любых устройств</div>
-        <img src="./images/mobile-version.png" alt="Картинка мобильной версии">
+        <div class="mobile-version-block"><img class="mobile-img" src="./images/mobile-version.png" alt="Картинка мобильной версии"></div>
       </div>
     </section>
+
+    <!-- Support Section -->
 
     <section class="section__support">
       <div class="section__support-wrapper section-blue">
@@ -216,6 +225,8 @@
       </div>
     </section>
 
+    <!-- Rates Section -->
+
     <section class="section__rates">
       <div class="section__rates-wrapper">
         <div class="section-header">Тарифы</div>
@@ -229,9 +240,9 @@
 
                 <div class="item-header">1 месяц</div>
                 <div class="item-text feature__text-span">Тариф подойдёт тем, кто ведёт краткосрочные проекты</div>
-                <div class="item-coast">Общая стоимость&emsp;&emsp;<span>1 990 ₽</span></div>
-                <div class="item-coast border-top-line">Ваша выгода&emsp;&emsp;&emsp;&emsp;&ensp;<span>0 ₽</span></div>
-                <div class="item-coast border-top-line mb-40">Стоимость месяца&emsp;&ensp;<span>1 990 ₽/мес</span></div>
+                <div class="item-coast"><div>Общая стоимость</div><div>1 990 ₽</div></div>
+                <div class="item-coast border-top-line"><div>Ваша выгода</div><div>0 ₽</div></div>
+                <div class="item-coast border-top-line mb-40"><div>Стоимость месяца</div><div>1 990 ₽</div></div>
                 <div class="rates-button">
                   <button class="header__button button-blue">Бесплатно 14 дней</button>
                 </div>
@@ -241,15 +252,15 @@
 
           <!-- Card Item -->
 
-           <div class="rates-card-item">
+          <div class="rates-card-item">
             <div class="item-content-wrapper">
               <div class="item-content">
                 <div class="sale-top"> Выгода <span class="sale-green">25%</span></div>
                 <div class="item-header">6 месяцев</div>
                 <div class="item-text feature__text-span">Тариф подойдёт для тех, кто уверенно ведёт финансовый учёт</div>
-                <div class="item-coast">Общая стоимость&emsp;&emsp;<span>8 940 ₽</span></div>
-                <div class="item-coast border-top-line">Ваша выгода&emsp;&emsp;&emsp;&nbsp;&nbsp;<span class="sale-orange">3 000 ₽</span></div>
-                <div class="item-coast border-top-line mb-40">Стоимость месяца&emsp;&nbsp;&nbsp;<span>1 490 ₽/мес</span></div>
+                <div class="item-coast"><div>Общая стоимость</div><div>8 940 ₽</div></div>
+                <div class="item-coast border-top-line pd-10"><div>Ваша выгода</div><div class="sale-orange">3 000 ₽</div></div>
+                <div class="item-coast border-top-line mb-40"><div>Стоимость месяца</div><div>1 490 ₽/мес</div></div>
                 <div class="rates-button">
                   <button class="header__button button-blue">Бесплатно 14 дней</button>
                 </div>
@@ -264,10 +275,10 @@
               <div class="item-content">
                 <div class="sale-top"> Выгода <span class="sale-green">50%</span></div>
                 <div class="item-header">12 месяцев</div>
-                <div class="item-text feature__text-span">Тариф подойдёт для тех, кто уверенно ведёт финансовый учёт<br> и хочет сэкономить</div>
-                <div class="item-coast">Общая стоимость&emsp;&emsp;&emsp;<span>11 800 ₽</span></div>
-                <div class="item-coast border-top-line">Ваша выгода&emsp;&emsp;&emsp;&emsp;&ensp;<span class="sale-orange">12 000 ₽</span></div>
-                <div class="item-coast border-top-line mb-40">Стоимость месяца&emsp;&emsp;&nbsp;<span> 990 ₽/мес</span></div>
+                <div class="item-text feature__text-span mb-25">Тариф подойдёт для тех, кто уверенно ведёт финансовый учёт и хочет сэкономить</div>
+                <div class="item-coast"><div>Общая стоимость</div><div>11 800 ₽</div></div>
+                <div class="item-coast border-top-line pd-10"><div>Ваша выгода</div><div class="sale-orange">12 000 ₽</div></div>
+                <div class="item-coast border-top-line mb-40"><div>Стоимость месяца</div><div>990 ₽/мес</div></div>
                 <div class="rates-button">
                   <button class="header__button">Бесплатно 14 дней</button>
                 </div>
@@ -278,6 +289,8 @@
       </div>
     </section>
 
+    <!-- Recall Section -->
+
     <section class="section__recall">
       <div class="section__recall-wrapper">
         <div class="section-header mb-40">Отзывы</div>
@@ -286,7 +299,7 @@
             <div class="recall__content">
               <div class="content-left">
                 <div class="recall-text">
-                  Впервые за долгое время<br> увидела свои расходы и<br> доходы как на ладони.
+                  Впервые за долгое время увидела свои расходы и доходы как на ладони.
                 </div>
                 <div class="recall-signature">
                   Дана Валеева
@@ -302,6 +315,8 @@
         </div>
       </div>
     </section>
+
+    <!-- Footer Section -->
 
     <footer class="section__footer">
       <div class="section__footer-wrapper">
@@ -341,9 +356,9 @@
         © 2022 Finio. Все права защищены.
       </div>
       <div class="payments__img">
-        <img src="/3-Finio/images/payments/visa-img.svg" alt="Иконка Visa">
-        <img src="/3-Finio/images/payments/mastercard-img.svg" alt="Иконка MasterCard">
-        <img src="/3-Finio/images/payments/mir-img.svg" alt="Иконка Mir">
+        <img src="./images/payments/visa-img.svg" alt="Иконка Visa">
+        <img src="./images/payments/mastercard-img.svg" alt="Иконка MasterCard">
+        <img src="./images/payments/mir-img.svg" alt="Иконка Mir">
       </div>
       </div>
     </footer>
