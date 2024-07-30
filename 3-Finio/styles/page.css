@@ -202,12 +202,6 @@ ul img {
   padding: 80px 0 80px 0;
 }
 
-.rates-card-item:nth-child(n + 2) {
-  .item-content-wrapper {
-    padding: 48px 34px 48px 40px;
-  }
-}
-
 .rates-card-item:nth-child(3) {
   background: var(--color-bg-primary);
 
@@ -246,7 +240,18 @@ ul img {
 }
 
 .item-content-wrapper {
-  padding: 93px 34px 48px 40px;
+  padding: 48px 34px 48px 40px;
+}
+
+.rates-card-item:first-child {
+  .item-content-wrapper .item-content .sale-top {
+    opacity: 0;
+  }
+  .sale-orange {
+    background: none;
+    color: #4e5d7c;
+    font-weight: inherit;
+  }
 }
 
 .rates-button {
@@ -259,8 +264,18 @@ ul img {
   line-height: 38.4px;
 }
 
-.item-text {
-  margin-bottom: 50px;
+.item-content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* .card-headling {
+  margin-bottom: 25px;
+} */
+
+.card-params {
+  padding: 8px 0;
 }
 
 .item-coast {
@@ -296,13 +311,19 @@ ul img {
 .sale-orange {
   background: var(--color-bg-saleprice);
   color: var(--color-link-hover);
-  width: 99px;
+  /* width: 99px; */
   font-size: 17px;
   font-weight: 700;
   line-height: 20.4px;
   padding: 8px 8px 8px 16px;
   border-radius: 8px;
+  
 }
+
+/* .value {
+  width: 105px;
+  text-align: left;
+} */
 
 /* Section Recall */
 
@@ -364,7 +385,7 @@ ul img {
 .slider__button-left {
   position: absolute;
   content: '';
-  background: url(/images/arrow-left.svg) no-repeat center;
+  background: url(../images/arrow-left.svg) no-repeat center;
   background-color: var(--color-link);
   width: 40px;
   height: 40px;
@@ -381,7 +402,7 @@ ul img {
 .slider__button-right {
   position: absolute;
   content: '';
-  background: url(/images/arrow-right.svg) no-repeat center;
+  background: url(../images/arrow-right.svg) no-repeat center;
   background-color: var(--color-link);
   width: 40px;
   height: 40px;

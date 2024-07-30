@@ -41,13 +41,16 @@
 /* H3 */
 
 .hero__left-h2 {
+  min-width: 458px;
   font-size: 40px;
   font-weight: 800;
   line-height: 48px;
   color: var(--color-link-hover);
 }
 
+
 .feature__text-h2 {
+  max-width: 550px;
   font-size: 40px;
   font-weight: 800;
   line-height: 48px;
@@ -58,6 +61,7 @@
   font-weight: 500;
   line-height: 25.2px;
   color: #4e5d7c80;
+  height: 75px;
 }
 
 /* Feature Diagram */
@@ -93,4 +97,8 @@
   color: #fff;
   padding-bottom: 40px;
   text-align: center;
+}
+
+.hero-polugon {
+  background: linear-gradient(173deg, var(--color-bg-primary) var(--slice-size), var(--color-link-hover) var(--slice-size)) !important;
 }

@@ -6,6 +6,10 @@
     padding: 47px 24px 80px 24px;
   }
 
+  .hero {
+    overflow: hidden;
+  }
+
 }
 
 @media (max-width:375px) {
@@ -66,6 +70,7 @@
   }
 
   .hero__left-h2{
+    min-width: 330px;
     font-size: 32px;
     line-height: 38.4px;
 
@@ -164,6 +169,10 @@
   .section__rates {
     max-width: var(--layout-width-min);
     padding: 48px 24px 64px 24px;
+  }
+
+  .rates-card-item:first-child .item-content-wrapper .item-content .sale-top {
+    display: none;
   }
 
   .section__rates-card {
