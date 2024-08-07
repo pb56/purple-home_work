@@ -56,12 +56,15 @@
   line-height: 48px;
 }
 
+ .item-content-wrapper .feature__text-span {
+  height: 75px;
+ }
+
 .feature__text-span {
   font-size: 17px;
   font-weight: 500;
   line-height: 25.2px;
   color: #4e5d7c80;
-  height: 75px;
 }
 
 /* Feature Diagram */

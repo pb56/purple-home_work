@@ -279,8 +279,10 @@ ul img {
 }
 
 .item-coast {
-  display: flex;
+  display: grid;
   justify-content: space-between;
+  grid-template-columns: auto 107px;
+  align-items: center;
   font-size: 17px;
   font-weight: 500;
   line-height: 20.4px;
@@ -297,7 +299,7 @@ ul img {
   font-weight: 500;
   line-height: 21px;
   color: var(--color-link-hover);
-  width: 125px;
+  width: 130px;
   margin-bottom: 16px;
 }
 
@@ -311,13 +313,11 @@ ul img {
 .sale-orange {
   background: var(--color-bg-saleprice);
   color: var(--color-link-hover);
-  /* width: 99px; */
-  font-size: 17px;
-  font-weight: 700;
-  line-height: 20.4px;
-  padding: 8px 8px 8px 16px;
   border-radius: 8px;
-  
+  font-weight: 700;
+  padding: 8px 16px;
+  margin-left: -16px;
+  margin-right: 16px;
 }
 
 /* .value {

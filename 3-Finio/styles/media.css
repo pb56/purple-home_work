@@ -122,8 +122,6 @@
   .section__mobile-wrapper .section-header, .feature__text-span {
     text-align: left;
     margin-left: 0;
-    padding-right: 24px;
-    
   }
 
   .savingtime__feature-block {
@@ -142,6 +140,7 @@
   .section__savingtime-header .header__button {
     display: block;
     padding: 12px 18px;
+    margin-bottom: 48px;
   }
 
   .section__mobile {
@@ -188,12 +187,15 @@
   }
   
   .feature__text-span {
-    font-size: 17px;
-    margin-bottom: 32px;
+    font-size: 18px;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: 25.2px;
+    text-align: left;
   }
 
   .section__savingtime-header .feature__text-span {
-    margin-bottom: 0;
+    color: #FFFFFFCC;
   }
 
   .rates-card-item .item-content-wrapper {
@@ -211,7 +213,7 @@
   }
 
   .item-coast {
-    display: flex;
+    display: grid;
     justify-content: space-between;
     align-items: center;
   }
@@ -224,10 +226,8 @@
   
   .sale-orange {
     padding: 8px 8px 8px 15px;
-  }
-  
-  .section__rates .section-header {
-
+    margin-left: -16px;
+    margin-right: 16px;
   }
 
  .section__recall-wrapper .section-header {
@@ -237,10 +237,6 @@
   .section__rates .section__rates-wrapper {
     align-items: start;
   }
-
-  /* .section__recall-block {
-    border-radius: 0;
-  } */
 
   .section__recall-wrapper {
     padding: 0 24px 80px 24px;
